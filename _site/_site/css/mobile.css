@@ -1,0 +1,43 @@
+#aboutPhoto { display: block; margin: 0 auto; max-width: 60%;}
+
+article { min-height: 224px;}
+
+footer p { font-size: 1.25em;}
+
+.introduction { margin-top: 16px;}
+.introduction h1 { font-size: 3em; margin: 0; line-height: 36px; text-align: center;}
+.introduction h2 { font-size: 1.4em; margin: 8px 0; text-align: center;}
+.introduction p { margin-top: 16px; font-size: 1.25em; text-align: justify;}
+
+nav { height: 48px;}
+
+nav ul { float: left; text-align: center; width: 100%;}
+nav ul li { display: inline-block; line-height: 48px; padding: 0px 16px 0 16px;}
+nav ul li a { 
+	color: #7f8c8d; 
+	display: block;
+	font-size: 1.2em;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+nav ul li a:hover { color: #e74c3c; }
+nav .search { display: none;}
+
+.posts { padding: 8px 16px 16px 72px; }
+.projectBox {
+	padding: 8px;
+}
+.projectBox img { 
+	display: block; 
+	margin: 0 auto; 
+	position: relative; 
+	text-align: center; 
+	top: 0;
+}
+.projectDesc { padding: 0px; }
+.projectDesc h2 { text-align: center; margin: 16px 0;}
+
+.site { background-color: #E2E5E9; margin-bottom: -142px; min-height: 100%;}
+.socialBox li {
+	max-width: 24%;
+}
