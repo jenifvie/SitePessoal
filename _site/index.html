@@ -34,7 +34,9 @@
 		<script type="text/javascript" src="/js/angular.min.js"></script>
 		<script type="text/javascript" src="/js/angular-sanitize.min.js"></script>
 		<script type="text/javascript" src="/js/app.js"></script>
-		<script type="text/javascript"> angular.module('blogApp').constant('POSTS',[]
+		<script type="text/javascript"> angular.module('blogApp').constant('POSTS',[ { 'title' : "Primeiro Post", 'url' : "/geral/2015/02/09/Primeiro-Post.html", 
+ 'day_month' : "09 Feb", 'year' : "2015",
+ 'content' : "Olá esse é um poste de teste do meu site. <a href=\"/geral/2015/02/09/Primeiro-Post.html\">Read More</a>"}, ]
 
 ); </script>	
 		<script type="text/javascript" src="/js/Android.js"></script>
@@ -70,10 +72,12 @@
 				<div class="wrapper">
 					<div>
 	<article class="posts" ng-repeat="post in posts | filter:query | startFrom: currentPage * pageSize | limitTo: pageSize">
-		<div class="dateformat">
+		<a href="{{post.url}}#postContent">
+            <div class="dateformat">
 				<div class="day_month">{{post.day_month }}</div>
 				<div class="year">{{post.year }}</div>
 		</div>
+        </a>
 		<div class="post_content">
 			<div class="title"><a href="{{post.url}}#postContent">{{post.title}}</a></div>
 			<div class="content" ng-bind-html="post.content"></div>

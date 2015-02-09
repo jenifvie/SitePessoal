@@ -4,7 +4,7 @@ article { min-height: 128px;}
 
 footer p { font-size: 1.6em;}
 
-.introduction { float: right; padding: 0px 16px 0px 16px; width: 60%;}
+.introduction { float: left; padding: 0px 16px 0px 16px; width: 100%;}
 .introduction h1 { font-size: 3.8em; margin: 0;}
 .introduction h2 { font-size: 1.8em; margin: 0;}
 .introduction p { margin-top: 16px; font-size: 1.25em; text-align: justify;}
