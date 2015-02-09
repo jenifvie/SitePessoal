@@ -6,4 +6,4 @@ encoding: utf-8
 categories: geral
 ---
 
-Olá esse é um poste de teste do meu site.
+Olá esse é um poste de teste do meu site. 
