@@ -106,12 +106,8 @@ section { margin: 0; padding: 0;}
 section#content { padding-top: 32px;}
 .socialBox { margin-top: 32px; width: 100%; text-align: center;}
 .socialBox li { display: inline-block; max-width: 15%;} 
-.socialBox a { background: #95a5a6; display: block; -webkit-transition: all .3s ease; transition: all .3s ease;}
+.socialBox a {  display: block; -webkit-transition: all .3s ease; transition: all .3s ease;}
 .socialBox img { width: 100%;}
-.socialBox #twitter:hover { background-color: #00abec;}
-.socialBox #gplus:hover { background-color: #d85534;}
-.socialBox #linkedIn:hover { background-color: #0274b3;}
-.socialBox #github:hover { background-color: #3b3b3b;}
 .single_post { padding: 32px; }
 .single_post .content { font-family: 'Droid Sans'; text-align: justify;}
 .site:after { content: ""; display: block; }
