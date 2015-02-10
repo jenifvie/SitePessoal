@@ -16,8 +16,8 @@ title: Blog Jenifer Vieira
         </div>
     </article>
     <div class="pagination_buttons">
-        <div class="button" ng-class="{'disabled' : currentPage == 0}" ng-click="currentPage = currentPage > 0? currentPage - 1 : currentPage">Previous</div>
+        <div class="button" ng-class="{'disabled' : currentPage == 0}" ng-click="currentPage = currentPage > 0? currentPage - 1 : currentPage">Anterior</div>
         <div class="pagination" ng-bind="(currentPage + 1 ) + '/' + numberOfPages()"></div>
-        <div class="button" ng-class="{'disabled' : currentPage >= posts.length/pageSize - 1}" ng-click="currentPage = (currentPage >= posts.length/pageSize - 1) ? currentPage : currentPage + 1">Next</div>
+        <div class="button" ng-class="{'disabled' : currentPage >= posts.length/pageSize - 1}" ng-click="currentPage = (currentPage >= posts.length/pageSize - 1) ? currentPage : currentPage + 1">Próximo</div>
     </div>
 </div>
